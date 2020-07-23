@@ -8,13 +8,57 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        view.backgroundColor = .purple
     }
-
-
 }
+
+class SecondViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        view.backgroundColor = .magenta
+    }
+}
+
+
+class ThirdViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        view.backgroundColor = .systemTeal
+    }
+}
+
+
+class FourViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        view.backgroundColor = .cyan
+    }
+}
+
+
+class FiveViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        view.backgroundColor = .blue
+    }
+}
+
 
